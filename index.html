@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navBar">
+<div class="container">
+	<div class="deskNav">
+		<a class="navBrand" href="">Start Bootstrap</a>
+		<ul class="linki">
+            <li class="nav-item">
+              <a class="sSilka" href="#download">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="sSilka" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="sSilka" href="#contact">Contact</a>
+            </li>
+          </ul>
+	</div>
+	<div class="mobileNav">
+		<a class="navBrand" href="">Start Bootstrap</a>
+		<button id="hamburger">Menu<i class="fa fa-bars"></i></button>
+		<div  id="navbar-collapse" class="hide">
+			<ul class="linki">
+            <li class="nav-item">
+              <a class="sSilka" href="#download">Download</a>
+            </li>
+            <li class="nav-item">
+              <a class="sSilka" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="sSilka" href="#contact">Contact</a>
+            </li>
+          </ul>
+		</div>
+	</div>
+</div>
+</nav>
+	<div class="header">
+		<div class="container">
+			<div class="desk">
+				<div class="text">
+			<h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
+			<a class="btnFree" href="">start now for free!</a>
+		</div>
+		<div class="phone">
+			<img src="img/iphone.png" alt="">
+		</div>
+			</div>
+		<div class="mobile">
+		<div class="text">
+			<h1>New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
+			<a class="btnFree" href="">start now for free!</a>
+		</div>
+		<div class="phone">
+			<img src="img/iphone.png" alt="">
+		</div>
+		</div>
+	</div>
+	</div>
+
+
+
+
+
+	 <script type="text/javascript">
+ function changeClass()
+ {
+  if ( document.getElementById("navbar-collapse").className.match(/(?:^|\s)hide(?!\S)/) ){
+   document.getElementById("navbar-collapse").classList.remove("hide");
+  }else{
+   document.getElementById("navbar-collapse").className += " hide";
+  }
+ }
+ window.onload = function()
+ {
+  document.getElementById("hamburger").addEventListener( 'click', changeClass);
+ }
+</script>
+
+
+
+</body>
+</html>
